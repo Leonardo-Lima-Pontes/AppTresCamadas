@@ -32,5 +32,6 @@ namespace AppTresCamadas.Application.ViewModels
         public DateTime DataDeCadastro { get; set; }
         public bool Ativo { get; set; }
         public FornecedorViewModel Fornecedor { get; set; }
+        public IEnumerable<FornecedorViewModel> Fornecedores { get; set; }
     }
 }
